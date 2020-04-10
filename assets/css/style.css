@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Lato;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.container {
+	width: 992px;
+	margin: auto;
+	border-left: 2px solid #e1e0e0;
+	border-right: 2px solid #e1e0e0;
+}
+
+.container-1 {
+	width: 992px;
+	margin: auto;
+}
+
+input:focus {
+	outline: none;
+}
+
+input {
+	color: #e1e0e0;
+}
+
+/* header-menu-area-start */
+
+.header-menu-area {
+	width: 100%;
+	height: 126px;
+	border-bottom: 5px solid #000;
+	background: #292929;
+}
+
+.header-menu-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 30px;
+}
+
+.header-logo {
+    padding-top: 45px;
+}
+
+nav#mean-menu {
+    text-align: right;
+}
+
+nav#mean-menu ul li {
+	display: inline-block;
+}
+
+nav#mean-menu ul li a {
+    color: #fff;
+    padding: 51px 25px;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    border-left: 1px solid #1d1d1d;
+	font-weight: bold;
+	transition: .3s;
+	margin: 0;
+}
+
+nav#mean-menu ul li a:hover {
+	color: #58c93a;
+	border-bottom: 5px solid #58c93a;
+}
+
+nav#mean-menu .last-li {
+	border-right: 1px solid #1d1d1d;
+}
+
+nav#mean-menu li.active a {
+	color: #58c93a;
+	display: block;
+	border-bottom: 5px solid #58c93a;
+}
+
+nav#mean-menu ul li a:hover {}
+
+/* header-menu-end */
+
+
+
+/* Blog-1 start */
+
+.blog-1 {
+	width: 100%;
+	height: 100%;
+	padding: 80px 0px;
+}
+
+.blog-1-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 70px;
+}
+
+.blog-1-left-content , .blog-1-button {
+	margin-left: 25px;
+}
+
+.blog-1-left-content h2 {
+    font-size: 28px;
+    margin: 20px 0px 60px;
+    color: #4f4e4e;
+}
+
+.blog-1-left-content p {
+    color: #606060;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.blog1-btn a {
+    display: block;
+    color: #c2c2c2;
+    border: 2px solid #c2c2c2;
+    width: 30%;
+    padding: 13px 15px;
+    text-align: center;
+    border-radius: 30px;
+	margin-top: 35px;
+	transition: .3s;
+}
+
+.blog1-btn a:hover {
+	border: 2px solid #58c93a;
+	background: #58c93a;
+	color: #fff;
+}
+
+.bolg-1-right-top-area h3 {
+    color: #6c6969;
+    background: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 20px;
+	position: relative;
+}
+
+.bolg-1-right-top-area h3:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 62px;
+    top: 0%;
+    left: 0px;
+    background: #58c93a;
+}
+
+.bolg-1-right-top-area p {
+    color: #737373;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+
+.bolg-1-right-middle-area {
+	margin: 80px 0px;
+}
+
+.bolg-1-right-middle-area h3 {
+	color: #6c6969;
+    background: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 20px;
+	position: relative;
+}
+
+.bolg-1-right-middle-area h3:before {
+	position: absolute;
+    content: "";
+    width: 5px;
+    height: 62px;
+    top: 0%;
+    left: 0px;
+    background: #58c93a;
+}
+
+.bolg-1-right-middle-area input {
+    width: 100%;
+    padding: 20px;
+    color: #58c93a;
+}
+
+.bolg-1-right-bottom-area h3 {
+	color: #6c6969;
+    background: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 20px;
+	position: relative;
+}
+
+.bolg-1-right-bottom-area h3:before {
+	position: absolute;
+    content: "";
+    width: 5px;
+    height: 62px;
+    top: 0%;
+    left: 0px;
+    background: #58c93a;
+}
+
+.bolg-1-right-bottom-area input {
+	width: 100%;
+    padding: 20px;
+    color: #4f4e4e;
+}
+
+.bolg-1-right-bottom-input {
+	width: 100%;
+	position: relative;
+}
+
+.bolg-1-right-bottom-input i {
+    position: absolute;
+    top: 27%;
+    right: 15px;
+    color: #606060;
+    border: 1px solid #606060;
+    padding: 5px 6px;
+    border-radius: 15px;
+	cursor: pointer;
+}
+
+
+/* Blog-1 end */
+
+
+/* Blog-2 stat*/
+
+.blog2-btn a {
+    display: block;
+    color: #c2c2c2;
+    border: 2px solid #c2c2c2;
+    width: 18%;
+    padding: 13px 15px;
+    text-align: center;
+    border-radius: 30px;
+	margin-top: 35px;
+	transition: .3s;
+	margin-left: 24px;
+}
+
+.blog2-btn a:hover {
+	border: 2px solid #58c93a;
+	background: #58c93a;
+	color: #fff;
+}
+
+.blog-2-bottom-area {
+	width: 100%;
+	height: 100%;
+	padding: 35px 50px;
+	border-top: 1px solid #e1e0e0;
+}
+
+.blog-2-bottom-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.blog-2-bottom-left-area h3 {
+	font-size: 18px;
+	color: #818181;
+	text-transform: uppercase;
+}
+
+.blog-2-bottom-left-area {
+	position: relative;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.blog-2-bottom-left-area:hover h3 ,
+.blog-2-bottom-left-area:hover i {
+	color: #58c93a;
+}
+
+.blog-2-bottom-left-area i {
+    position: absolute;
+    top: 3px;
+    left: -28px;
+    font-size: 18px;
+    color: #818181;
+}
+
+.blog-2-bottom-right-area {
+    text-align: right;
+}
+
+.blog-2-bottom-right-area:hover h3 ,
+.blog-2-bottom-right-area:hover i {
+	color: #58c93a;
+}
+
+.blog-2-bottom-right-area h3 {
+	font-size: 18px;
+	color: #818181;
+	text-transform: uppercase;
+}
+
+.blog-2-bottom-right-area {
+	position: relative;
+	cursor: pointer;
+}
+
+.blog-2-bottom-right-area i {
+    position: absolute;
+    top: 3px;
+    right: -28px;
+    font-size: 18px;
+    color: #818181;
+}
+
+/* Blog-2 end */
+
+
+/* footer-area-start */
+
+.footer-area {
+	width: 100%;
+	height: 100%;
+	background: #f8f8f8;
+	text-align: center;
+	padding: 80px 0px;
+	border-top: 1px solid #e1e0e0;
+}
+
+.footer-content-area h2 {
+    font-size: 40px;
+    color: #292929;
+}
+
+.footer-content-area p {
+    color: #a6a6a6;
+    font-size: 13px;
+    padding: 40px;
+}
+
+.footer-icon-area ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-icon-area ul li a {
+	color: #fff;
+	background: #e5e5e5;
+	padding: 15px;
+	transition: .3s;
+	display: block;
+}
+
+.footer-icon-area ul li:nth-of-type(2) a:hover {
+	background: #74b9ff;
+}
+
+.footer-icon-area ul li:nth-of-type(3) a:hover {
+	background: #d63031;
+}
+
+.footer-icon-area ul li:nth-of-type(4) a:hover {
+	background: #0984e3;
+}
+
+.footer-icon-area ul li.i-active a {
+	background: #516fad;
+}
+
+/* footer-area-end */
+
